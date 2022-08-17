@@ -29,14 +29,14 @@ The current accuracy of the model is a Mean Absolute Percentage Error (MAPE) of 
 See the [model training notebook](train.ipynb) for more detail.
 
 ## Dashboard
-The app can be viewed [here](link_to_app.com).
+The app can be viewed [here](https://amtwileg-final-project-dashboard-a8c10q.streamlitapp.com/).
 
 The dashboard allows the user to select a company's stock ticker from a list, and then customize hyperparameters and train a neural network to predict the stock price for the selected stock. It outputs a pair of visualizations and a few pertinent metrics after the model has been trained to better understand how the model is performing.
 
 You can also deploy the app yourself, following the setup instructions below.
 
 ## Google Slides Presentation
-The presentation can be found [here](link_to_google_slides_prez.com).
+The presentation can be found [here](https://docs.google.com/presentation/d/1MYcK-HIOGhLhr7A_eM8Kly_ar1-E3yFk4Y9WqkUbBaI/edit#slide=id.g147ae13f04a_0_2868).
 
 ## How to setup / run the app & notebooks locally
 1. Clone repository: `git clone $PATH_TO_REPO`
