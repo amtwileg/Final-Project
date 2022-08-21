@@ -25,13 +25,29 @@ We will be focusing our analysis on using only the Date and Close columns.
 * This database can easily be kept in memory and retrieved as needed.
 * Alternatively, if the data proves too large to fit into memory, we can store the data in a sqlite or psql database. Another alternative is mongo, since we do not need the relational aspect of sql and it will be simpler.
 * See [main](main.ipynb) for an example of a sample database in action with this data.
+* See [main](db.ipynb) for the setup of our fully integrated database. It shows:
+  * Static data stored for project
+  * How we can interface with the project (CRUD)
+  * Two collections in MongoDB
+  * Connection string
+  * No joins (because not necessary for this project, and we are using MongoDB)
 
 ### Machine Learning
 * `sklearn` / `pytorch` / `keras` will be used to build the machine learning time series models. We may also use `statsmodels` to fit an STL model.
 * See [main](main.ipynb) for an example of a sample (dummy) machine learning model in action with this data.
+* See [EDA notebook](EDA.ipynb) for details on how data was preprocessed, including feature generation and train-test split.
+* See the end of [EDA notebook](EDA.ipynb) for details on why I chose to use LSTM neural network model.
 
 ### Dashboard
-* I plan on using `streamlit` to build a dashboard.
+We're planning on building our dashboard using python's [streamlit](https://streamlit.io/). This is a new, very exciting library that allows one to "automate the boring stuff" and quickly build interactive data apps. It was specifically designed with machine learning applications in mind.
+![example](streamlit_example.png)
+
+My plan for this dashboard is to allow the user to choose a company from a preset list of companies, train an LSTM, and then choose between a few plots to analyze the results.
+These plots will include:
+1. Training vs. validation loss by epoch ![img](training_vs_validation_example.png)
+2. Historical stock prices overlayed with predictions ![img](stock_price_predictions_example.png)
+
+This tool can also be used to generate predictions.
 
 ## Data Exploration
 * The time series data did not come in a format that is conducive for machine learning.
