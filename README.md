@@ -44,15 +44,11 @@ The following technologies were used in this project:
   * Plots of predictions look very accurate.
 
 ### Dashboard
-We're planning on building our dashboard using python's [streamlit](https://streamlit.io/). This is a new, very exciting library that allows one to "automate the boring stuff" and quickly build interactive data apps. It was specifically designed with machine learning applications in mind.
-![example](streamlit_example.png)
+The app can be viewed [here](https://amtwileg-final-project-dashboard-a8c10q.streamlitapp.com/).
 
-My plan for this dashboard is to allow the user to choose a company from a preset list of companies, train an LSTM, and then choose between a few plots to analyze the results.
-These plots will include:
-1. Training vs. validation loss by epoch ![img](training_vs_validation_example.png)
-2. Historical stock prices overlayed with predictions ![img](stock_price_predictions_example.png)
+The dashboard allows the user to select a company's stock ticker from a list, and then customize hyperparameters and train a neural network to predict the stock price for the selected stock. It outputs a pair of visualizations and a few pertinent metrics after the model has been trained to better understand how the model is performing.
 
-This tool can also be used to generate predictions.
+You can also deploy the app yourself, following the setup instructions below.
 
 ## Data Exploration
 * The time series data did not come in a format that is conducive for machine learning.
