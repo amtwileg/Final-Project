@@ -39,6 +39,9 @@ The following technologies were used in this project:
 * See [main](main.ipynb) for an example of a sample (dummy) machine learning model in action with this data.
 * See [EDA notebook](EDA.ipynb) for details on how data was preprocessed, including feature generation and train-test split.
 * See the end of [EDA notebook](EDA.ipynb) for details on why I chose to use LSTM neural network model.
+* See the [training notebook](train.ipynb) for details on the training of the model.
+  * We were able to achieve 3% error on holdout test data never before seen by the model
+  * Plots of predictions look very accurate.
 
 ### Dashboard
 We're planning on building our dashboard using python's [streamlit](https://streamlit.io/). This is a new, very exciting library that allows one to "automate the boring stuff" and quickly build interactive data apps. It was specifically designed with machine learning applications in mind.
