@@ -17,6 +17,13 @@ Data for any stock ticker can be pulled using this one-liner function, and then 
 We will be focusing our analysis on using only the Date and Close columns.
 
 ## Technology
+The following technologies were used in this project:
+* EDA: `pandas` / `numpy`
+* DB: `mongo`
+* Machine Learning: `sklearn` / `tensorflow` / `keras`
+  * LSTM neural networks are the choice of model here
+* Dashboard: `streamlit`
+
 ### Data cleaning and analysis
 * `pandas_datareader` will be used to retrieve the data
 * `pandas` / `numpy` will be used to perform exploratory analysis and format it into a structure conducive for time series machine learning algorithms.
