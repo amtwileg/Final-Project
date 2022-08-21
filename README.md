@@ -32,3 +32,8 @@ We will be focusing our analysis on using only the Date and Close columns.
 
 ### Dashboard
 * I plan on using `streamlit` to build a dashboard.
+
+## Data Exploration
+* The time series data did not come in a format that is conducive for machine learning.
+* I decided to only use the "Closed" column of the data, and normalized / reshaped it so a machine learning model could be used.
+* See the [EDA notebook](EDA.ipynb) for details about the exploration
