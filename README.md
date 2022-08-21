@@ -37,3 +37,9 @@ We will be focusing our analysis on using only the Date and Close columns.
 * The time series data did not come in a format that is conducive for machine learning.
 * I decided to only use the "Closed" column of the data, and normalized / reshaped it so a machine learning model could be used.
 * See the [EDA notebook](EDA.ipynb) for details about the exploration
+
+## Analysis
+* I did a preliminary analysis of the data, as well as research on commonly used models, and came up with a plan for the machine learning phase of the project.
+* I plan to use an LSTM neural network and tune some of the many hyperparameters.
+* This model should work great on the preprocessed data I produced in the Data Exploration phase of the project.
+* The details can be found at the end of the [EDA notebook](EDA.ipynb).
