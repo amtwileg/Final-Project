@@ -8,6 +8,9 @@ The goal of this project is to train a time series model to accurately predict s
   * Can stock price data be predicted using stock price history data and machine learning models?
   * Are certain stocks easier to predict than others?
 
+## Google slides presentation
+Slides can be found [here](https://docs.google.com/presentation/d/1MYcK-HIOGhLhr7A_eM8Kly_ar1-E3yFk4Y9WqkUbBaI/edit#slide=id.g147ae13f04a_0_2868)
+
 ## Technology
 The following technologies were used in this project:
 * EDA: `pandas` / `numpy`
