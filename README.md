@@ -8,14 +8,6 @@ The goal of this project is to train a time series model to accurately predict s
   * Can stock price data be predicted using stock price history data and machine learning models?
   * Are certain stocks easier to predict than others?
 
-## Communication protocols
-The data used in this project is stock ticker data (time series). The raw data comes in the following format:
-
-![example data](dataExampleScreenshot.png)
-
-Data for any stock ticker can be pulled using this one-liner function, and then stored in a SQL (or mongo) database accordingly.
-We will be focusing our analysis on using only the Date and Close columns.
-
 ## Technology
 The following technologies were used in this project:
 * EDA: `pandas` / `numpy`
